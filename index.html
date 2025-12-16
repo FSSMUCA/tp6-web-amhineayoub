@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TP6 - Mini Application Web</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+<h1>Mini Calculatrice Web</h1>
+</header>
+
+
+<main class="container">
+
+
+<section class="calculator">
+<h2>Calculatrice</h2>
+
+
+<form id="calcForm">
+<input type="number" id="a" placeholder="Nombre A">
+<input type="number" id="b" placeholder="Nombre B">
+
+
+<select id="operation">
+<option value="">-- Opération --</option>
+<option value="+">Addition (+)</option>
+<option value="-">Soustraction (-)</option>
+<option value="*">Multiplication (×)</option>
+<option value="/">Division (÷)</option>
+</select>
+
+
+<button type="submit">Calculer</button>
+</form>
+
+
+<p id="error"></p>
+</section>
+
+
+<section class="history">
+<h2>Historique des opérations</h2>
+<ul id="historyList"></ul>
+</section>
+
+
+</main>
+
+
+<footer>
+<p>TP 6 - HTML, CSS, JavaScript & PHP</p>
+</footer>
+
+
+<script src="app.js"></script>
+</body>
+</html>
